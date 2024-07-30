@@ -1,11 +1,22 @@
 // Code your selectRandomEntry function here:
+ function selectRandomEntry(array){
+  let randomID = array[Math.floor(Math.random()*(array.length))]
+  return randomID;
+ }
+while (selectedCandidates.length < 3){
+  selectedCandidates.push(selectRandomEntry(idNumbers))
+  let sameID = selectRandomEntry(idNumbers)
+if(selectedCandidates.includes(sameID))
+  
+}
 
 
 // Code your buildCrewArray function here:
-
+function buildCrewArray(){}
 
 let idNumbers = [291, 414, 503, 599, 796, 890];
-
+let chosenID = []
+let selectedCandidates = []
 // Here are the candidates and the 'animals' array:
 let candidateA = {
   'name':'Gordon Shumway',

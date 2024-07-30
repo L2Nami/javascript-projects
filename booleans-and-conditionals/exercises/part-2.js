@@ -11,7 +11,7 @@ let shuttleSpeed = 15000;
 if (crewStatus) {
     console.log("Crew Ready");
  } else {
-    console.log("CRew Not Ready")
+    console.log("Crew Not Ready")
  }
 
 // b) If computerStatusCode is 200, print "Please stand by. Computer is rebooting." Else if computerStatusCode is 400, print "Success! Computer online." Else print "ALERT: Computer offline!"
